@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { useToast } from "@/components/ui/use-toast";
-import { Google, Mail, AlertCircle } from "lucide-react";
+import { Mail, AlertCircle, ExternalLink } from "lucide-react";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 
 const Signup = () => {
@@ -80,7 +80,7 @@ const Signup = () => {
           disabled={isLoading}
           onClick={handleGoogleSignup}
         >
-          <Google size={18} />
+          <ExternalLink size={18} />
           Sign up with Google
         </Button>
       </div>

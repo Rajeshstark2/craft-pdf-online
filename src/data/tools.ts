@@ -1,6 +1,6 @@
 import {
   FileText, Files, FilePlus2, FileMinus2, FileBarChart2, FileSearch, FileX2, FileUp, FileDown, FileCheck2,
-  Lock, Unlock, Image, Columns, Table, LayoutPresentationAlt, FileHeart, Camera, FileScan, Edit, LineChart,
+  Lock, Unlock, Image, Columns, Table, Presentation, FileHeart, Camera, FileScan, Edit, LineChart,
   FileSignature, PencilRuler, FileInput, FormInput, Stamp, FileDigit, Clock, FileCode, FileJson
 } from "lucide-react";
 import { LucideIcon } from "lucide-react";
@@ -147,7 +147,7 @@ export const tools: Tool[] = [
     id: "pdf-to-ppt",
     name: "PDF to PowerPoint",
     description: "Convert PDF to PowerPoint presentations",
-    icon: LayoutPresentationAlt,
+    icon: Presentation,
     path: "/tool/pdf-to-ppt",
     category: "convert",
     isPro: true,
